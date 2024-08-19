@@ -11,6 +11,12 @@ export default function About() {
             type: 'carousel',
             focusAt: 'center',
             perView: 6,
+            breakpoints: {
+                1200: { perView: 4 },
+                992: { perView: 4 },
+                768: { perView: 4 },
+                576: { perView: 2 }
+            }
         }).mount()
         return () => glide.destroy();
     }, [])

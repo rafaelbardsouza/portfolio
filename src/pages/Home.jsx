@@ -22,7 +22,7 @@ export default function Home() {
             <div className='items'>
                 <h1>{localStorage.getItem('lang')!='PT'?"Hello, i'm Rafael! 👋":"Olá, eu sou o Rafael! 👋"}</h1>
                 <div className='links'>
-                    <a href="#about">{localStorage.getItem('lang')!='PT'?"Download CV":"Baixar CV"}</a>
+                    <a href="#" >{localStorage.getItem('lang')!='PT'?"Download CV":"Baixar CV"}</a>
                     <a href="#contact" onClick={scrollToContact}>{localStorage.getItem('lang')!='PT'?"Contact":"Contato"}</a>
                 </div>
             </div>

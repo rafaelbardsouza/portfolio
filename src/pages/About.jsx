@@ -23,7 +23,7 @@ export default function About() {
 
     return(
         <section className='about' id='about'>
-            <h1>My skills</h1>
+            <h1>{localStorage.getItem('lang')!='PT'?"My Skills":"Minhas Habilidades"}</h1>
             <img src={me} alt="About me"/>
             <div className='glide'>
                 <div className='glide__track' data-glide-el='track'>
@@ -32,28 +32,24 @@ export default function About() {
                             <div className='card'>
                                 <h1>NestJS</h1>
                                 <img src='https://skillicons.dev/icons?i=nest'/>
-                                <h1>❤️</h1>
                             </div>
                         </li>
                         <li className='glide__slide'>
                             <div className='card'>
                                 <h1>React</h1>
                                 <img src='https://skillicons.dev/icons?i=react'/>
-                                <h1>❤️</h1>
                             </div>
                         </li>
                         <li className='glide__slide'>
                             <div className='card'>
                                 <h1>Svelte</h1>
                                 <img src='https://skillicons.dev/icons?i=svelte'/>
-                                <h1>❤️</h1>
                             </div>
                         </li>
                         <li className='glide__slide'>
                             <div className='card'>
                                 <h1>MySQL</h1>
                                 <img src='https://skillicons.dev/icons?i=mysql'/>
-                                <h1>❤️</h1>
                             </div>
                         </li>
                         <li className='glide__slide'>
@@ -78,7 +74,6 @@ export default function About() {
                             <div className='card'>
                                 <h1>C</h1>
                                 <img src='https://skillicons.dev/icons?i=c'/>
-                                <h1>❤️</h1>
                             </div>
                         </li>
                         <li className='glide__slide'>
@@ -97,21 +92,18 @@ export default function About() {
                             <div className='card'>
                                 <h1>Go</h1>
                                 <img src='https://skillicons.dev/icons?i=go'/>
-                                <h1>❤️</h1>
                             </div>
                         </li>
                         <li className='glide__slide'>
                             <div className='card'>
                                 <h1>JavaScript</h1>
                                 <img src='https://skillicons.dev/icons?i=js'/>
-                                <h1>❤️</h1>
                             </div>
                         </li>
                         <li className='glide__slide'>
                             <div className='card'>
                                 <h1>TypeScript</h1>
                                 <img src='https://skillicons.dev/icons?i=ts'/>
-                                <h1>❤️</h1>
                             </div>
                         </li>
                         <li className='glide__slide'>

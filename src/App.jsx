@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 function App() {
   useEffect(() => {
     if (localStorage.getItem('lang') === null) {
-      localStorage.setItem('lang', 'english');
+      localStorage.setItem('lang', 'EN');
     }
   }, []);
 

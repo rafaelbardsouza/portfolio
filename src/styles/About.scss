@@ -31,6 +31,11 @@
                 border-radius: 15px 15px 0 0;
                 height: 50%;
                 width: 50%;
+
+                &:hover {
+                    transform: scale(1.3) rotate(10deg);
+                    transition: transform 0.3s ease-in-out;
+                }
             }
         }
     }
@@ -87,7 +92,7 @@
     }
 
     section img {
-        width: 80vw;
+        width: 20vw;
     }
 
     .glide__slide .card h1 {

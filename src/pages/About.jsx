@@ -23,7 +23,7 @@ export default function About() {
 
     return(
         <section id='about'>
-            <h1>Minhas tecnologias</h1>
+            <h1>My skills</h1>
             <img src={me} alt="About me"/>
             <div className='glide'>
                 <div className='glide__track' data-glide-el='track'>

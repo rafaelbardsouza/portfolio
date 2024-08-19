@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;700&display=swap');
 
 :root {
-    background-color: black;
+    background: linear-gradient(180deg, #000000, #002550, #000000);    
     color: white;
     font-family: 'SF Pro Text', sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    background-size: cover;
+    background-position: center;
 }

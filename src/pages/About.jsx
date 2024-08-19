@@ -22,7 +22,7 @@ export default function About() {
     }, [])
 
     return(
-        <section id='about'>
+        <section className='about' id='about'>
             <h1>My skills</h1>
             <img src={me} alt="About me"/>
             <div className='glide'>

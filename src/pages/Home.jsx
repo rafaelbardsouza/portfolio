@@ -1,5 +1,5 @@
 import '../styles/Home.scss';
-import iDog from '../assets/idog.png';
+import iDog from '../../public/iDog.png';
 export default function Home() {
     return(
         <section className="home" id="home">

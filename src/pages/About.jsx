@@ -3,6 +3,7 @@ import Glider from 'react-glider';
 import 'glider-js/glider.min.css';
 
 import me from '../assets/about.png'
+import ferry from '../assets/ferry.png'
 import '../styles/About.scss'
 
 export default function About() {
@@ -78,6 +79,24 @@ export default function About() {
                     <h1>Express</h1>
                     <img src='https://skillicons.dev/icons?i=express'/>
                 </div>
+            </Glider>
+            <h1>{localStorage.getItem('lang')!='PT'?"Portfolio":"Portfólio"}</h1>
+            <Glider
+                className='glider second'
+                draggable
+                hasArrows
+                slidesToShow={6}
+                slidesToScroll={6}
+                arrows={{
+                    prev: '#notesPrev',
+                    next: '#notesNext',
+                }}
+            >
+                <a href='https://github.com/rafaelbardsouza/Ferry-Tickets' style={{textDecoration: 'none', color: 'white'}} className='card'>
+                    <h1>Ticket System</h1>
+                    <img src={ferry} style={{ width: '80%', height: '100%' }} alt="Ferry"/>
+                    <img className='small-icons' src='https://skillicons.dev/icons?i=svelte,nestjs'/>
+                </a>
             </Glider>
         </section>
     )

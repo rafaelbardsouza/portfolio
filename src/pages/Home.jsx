@@ -1,5 +1,5 @@
 import '../styles/Home.scss';
-import iDog from '../../public/iDog.png';
+import iDog from '/idog.png';
 export default function Home() {
     const scrollToContact = (event) => {
         event.preventDefault();
